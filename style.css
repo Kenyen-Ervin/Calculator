@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+html{
+  background-color: lavender;
+}
+
+.calculator input,
+.calc-button   {
+  font-family: 'Space Mono';
+}
+
+.calculator{
+  box-sizing: border-box;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  max-width: 500px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.calc-button{
+  background-color: darkgray;
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor:pointer;
+  font-size: 25px;
+}
+
+.calculator input{
+  padding: 10px;
+  width: 95.5%;
+  background-color: black;
+  border-bottom: 2px solid black;
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  border-radius: 0;
+}
+
+.calculator-buttons{
+  margin: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  padding: 20px;
+  grid-gap: 15px;
+
+}
+
+.is-zero,
+.is-clear   {
+  grid-column: span 3;
+}
+
+.formstyle
+{
+width: 400px;
+height: 600px;
+margin: 20px auto;
+border: 10px solid darkblue;
+border-radius: 5px;
+padding: 20px;
+text-align: center;
+background: linear-gradient(to top, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%,  rgba(8,8,112,1) 71%, rgba(4,2,50,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+
+
+.textview{
+  width: 400px;
+  margin: 5px;
+  font-size: 25px;
+  padding: 5px;
+  background-color: lightgreen;
+}	
+ 
+
